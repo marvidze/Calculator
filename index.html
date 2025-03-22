@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Калькулятор</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="calulator-area">
+        <div class="calculator">
+          <div class="output-field" id="out">0</div>
+          <div class="buttons-area">
+            <button class="calculator-button" onClick="cosTaylor()">
+              cos x
+            </button>
+            <button class="calculator-button" onClick="sinTaylor()">
+              sin x
+            </button>
+            <button class="calculator-button" onClick="buttonDeleteAll()">
+              C
+            </button>
+            <button class="calculator-button" onClick="buttonDelete()">
+              ⌫
+            </button>
+            <button class="calculator-button" onClick="lnFunction()">
+              ln x
+            </button>
+            <button class="calculator-button" onClick="lgFunction()">
+              lg x
+            </button>
+            <button class="calculator-button" onClick="sqrtHeron()">√x</button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              /
+            </button>
+            <button class="calculator-button" onClick="cotTaylor()">
+              ctg x
+            </button>
+            <button class="calculator-button" onClick="tanTaylor()">
+              tg x
+            </button>
+            <button class="calculator-button" onClick="expTaylor()">e^x</button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              *
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              1
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              2
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              3
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              -
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              4
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              5
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              6
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              +
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              7
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              8
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              9
+            </button>
+            <button class="calculator-button" onClick="buttonPlusMinus()">
+              +/-
+            </button>
+            <button class="calculator-button" onClick="buttonNumber(this)">
+              0
+            </button>
+            <button class="calculator-button" onClick="buttonDot()">.</button>
+            <button
+              class="calculator-button button-equally"
+              onClick="buttonEqually()"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./calculator-logic.js"></script>
+</html>
